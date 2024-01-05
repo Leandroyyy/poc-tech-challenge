@@ -1,8 +1,8 @@
 package main
 
 import (
-	routes "github.com/leandroyyy/poc-tech-challenge/src/cmd/api"
-	postgres_database "github.com/leandroyyy/poc-tech-challenge/src/infra/database/gorm"
+	postgres_database "github.com/leandroyyy/poc-tech-challenge/src/adapter/driven/database/gorm"
+	routes "github.com/leandroyyy/poc-tech-challenge/src/adapter/driver/http"
 )
 
 func main() {

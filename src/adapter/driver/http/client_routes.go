@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/leandroyyy/poc-tech-challenge/src/adapter/driver"
+	driver "github.com/leandroyyy/poc-tech-challenge/src/adapter/driver/controllers"
 )
 
 func HandlerRequests() {

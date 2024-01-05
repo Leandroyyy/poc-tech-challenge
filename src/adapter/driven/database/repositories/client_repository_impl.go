@@ -1,8 +1,8 @@
 package repository_impl
 
 import (
+	postgres_database "github.com/leandroyyy/poc-tech-challenge/src/adapter/driven/database/gorm"
 	"github.com/leandroyyy/poc-tech-challenge/src/core/domain/entities"
-	postgres_database "github.com/leandroyyy/poc-tech-challenge/src/infra/database/gorm"
 )
 
 type ClientRepositoryImpl struct {

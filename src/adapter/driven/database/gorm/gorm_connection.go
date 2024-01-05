@@ -3,7 +3,7 @@ package postgres_database
 import (
 	"log"
 
-	database_model "github.com/leandroyyy/poc-tech-challenge/src/infra/database/gorm/models"
+	database_model "github.com/leandroyyy/poc-tech-challenge/src/adapter/driven/database/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

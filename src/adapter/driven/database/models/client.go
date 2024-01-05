@@ -4,5 +4,5 @@ import "gorm.io/gorm"
 
 type ClientModel struct {
 	gorm.Model
-	Name, Cpf string
+	Id, Name, Cpf string
 }

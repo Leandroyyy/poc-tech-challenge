@@ -2,7 +2,7 @@ package usecases
 
 import (
 	"github.com/google/uuid"
-	"github.com/leandroyyy/poc-tech-challenge/src/core/application/repositories"
+	"github.com/leandroyyy/poc-tech-challenge/src/core/application/ports/repositories"
 	"github.com/leandroyyy/poc-tech-challenge/src/core/domain/entities"
 )
 

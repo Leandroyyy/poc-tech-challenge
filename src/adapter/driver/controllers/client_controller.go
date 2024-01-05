@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	repository_impl "github.com/leandroyyy/poc-tech-challenge/src/adapter/driven/database"
+	repository_impl "github.com/leandroyyy/poc-tech-challenge/src/adapter/driven/database/repositories"
 	driver_dto "github.com/leandroyyy/poc-tech-challenge/src/adapter/driver/dtos"
 	usecases "github.com/leandroyyy/poc-tech-challenge/src/core/application/use-cases"
 )
